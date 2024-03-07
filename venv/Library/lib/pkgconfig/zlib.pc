@@ -1,0 +1,13 @@
+prefix=T:/ml project/venv/Library
+exec_prefix=T:/ml project/venv/Library
+libdir=T:/ml project/venv/Library/lib
+sharedlibdir=T:/ml project/venv/Library/lib
+includedir=T:/ml project/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
